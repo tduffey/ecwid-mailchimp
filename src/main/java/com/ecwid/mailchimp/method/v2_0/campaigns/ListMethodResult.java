@@ -138,7 +138,6 @@ public class ListMethodResult extends MailChimpObject {
         //@Field
         //public List<SegmentOpts> segment_opts;
         
-        // TODO:
         //@Field
         //public SavedSegment saved_segment;
         
@@ -168,10 +167,6 @@ public class ListMethodResult extends MailChimpObject {
         @Field
         public Boolean opens;
 
-    }
-    
-    public static class TypeOpts extends MailChimpObject {
-    	
     }
     
     public static class Summary extends MailChimpObject {
@@ -371,7 +366,6 @@ public class ListMethodResult extends MailChimpObject {
     		public Integer recipients_click;
     		
     	}
-    	
     }
 
     public static class Error extends MailChimpObject {
